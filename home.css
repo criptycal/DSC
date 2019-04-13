@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+background-image: url(img-website/Background.png);
+background-size: 1366px 768px;
+margin: 0px;
+}
+.logotype{
+	margin-top: 25px;
+	margin-left: 50px;
+}
+li a{
+	text-decoration: none;
+	color: #EFEEF3;
+	font-family: 'OCR A';
+	font-size: 15px;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	height: 30px;
+	
+}
+.header ul{
+	display: flex;
+	height: inherit;
+	margin-right: 50px; 
+}
+.header li{
+	display: flex;
+	height: inherit;
+	margin-left: 30px;
+	margin-top: 7px;
+}
+.main-menu{
+	margin-top: 5px;
+	display: flex;
+	height: inherit;
+	margin-right: 5px
+}
+.caja-hero{
+	margin-top: 205px;
+	height: 150px;
+}
+.hero-description{
+	padding: 10px 10px 10px 10px;
+	margin: -156px 10px 10px 33px;
+	color: white;
+	position: absolute;
+	font-family: 'OCR A';
+	font-size: small;
+}
+.hero-image{
+	height: 150px;
+	background-image: url(img-website/t75725b_matrix349uvb.gif);
+	opacity: 0.5;
+}
+
+.footer{
+	height: 127px;
+	background-color: rgba(0,0,0,0.66);
+	margin-top: 117px;
+	padding: 23px 0px 5px 24px;
+}
+.contact-form{
+	margin: -20px 0px 0px 7px;
+	width: 300px;
+	height: 122px;
+	background-color: transparent;
+	
+}
+.contact-title{
+	color: white;
+	font-family: 'OCR A';
+	font-size: small;
+	margin: 15px 0px 0px 100px;
+}
+.your-email{
+	font-family: 'OCR A';
+	font-size: small;
+	margin: 7px 0px 0px 45px;
+	width: 195px;
+}
+.your-message{
+	font-family: 'OCR A';
+	font-size: small;
+	margin: 7px 0px 0px 45px;
+	width: 199px;
+	height: 48px;
+	padding: 0px 0px 29px 0px;
+	box-sizing: border-box;
+}
+.contact-button{
+	margin: 10px 0px 0px 115px;
+}
+.contact-data{
+	color: white;
+	font-family: 'OCR A';
+	font-size: small;
+	text-align: left;
+	margin: -130px 0px 0px 280px;
+	padding: 0px 0px 0px 0px;
+}
+.social-media{
+	padding: 30px;
+	margin: -70px 0px 0px 1100px;
+}
+.social-link{
+	margin: 0px 10px 0px 0px;
+	padding: 30px 50px 0px 0px;
+	width: 50px;
+	height: 50px;
+}
+.social-link.instagram{
+	background-image: url(img-website/social-media/Instagram-Icon.png);
+	background-size: 53px;
+	background-repeat: no-repeat;
+}
+.social-link.github{
+	background-image: url(img-website/social-media/github-12f87fbdd12e2e9b8661d386e6debf94a6589d5fb63b18f73e80bbfebec3b8fc.png);
+	background-size: 38px;
+	background-repeat: no-repeat;
+	background-position-y: 6px
+}
